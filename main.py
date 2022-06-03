@@ -17,7 +17,7 @@ class Child(Parent1,Parent2):
     def show_string_three(self):
         print(self.str3)
 
-my_child = Child()
+my_child = Child()   #Last Class Take
 my_child.assign_string_one("I am string of Parent 1")
 my_child.assign_string_two("I am string of Parent 2")
 my_child.assign_string_three("I am string of Child")
